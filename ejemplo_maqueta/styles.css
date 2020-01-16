@@ -1,0 +1,108 @@
+html, body {
+    font-size: 4px;
+    font-family: sans-serif;
+}
+
+
+/* body {
+    background: papayawhip;
+}
+
+h1 {
+    background: greenyellow;
+    color: tomato;
+    margin: 0;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+h1 a:hover {
+    transform: scale(1.0);
+}
+
+a.bailarin {
+    background: orange;
+}
+
+h1 a {
+    background: palevioletred;
+}
+
+a {
+    background: indigo;
+    display: inline-block;
+    transition: 0.25s;
+}
+
+a:hover {
+    transform: scale(1.5);
+}
+
+.bailarin:hover {
+    transform: rotate(180deg);
+    transition: 2s;
+} */
+
+
+/* .plano-cartesiano {
+    border: 1px dashed black;
+    height: 500px;
+    position: relative;
+    width: 500px;
+}
+
+.particula {
+    background: purple;
+    border-radius: 10px;
+    bottom: 400px;
+    height: 20px;
+    position: absolute;
+    right: 400px;
+    transition: 0.5s;
+    width: 20px;
+}
+
+.plano-cartesiano:hover .particula {
+    bottom: 50px;
+    right: 100px;
+} */
+
+.book {
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    width: 226px;
+}
+
+.book__image {
+    background-position: center;;
+    background-size: cover;
+    height: 70rem
+}
+
+.book__footer {
+    background: white;
+    padding: 16px;
+    position: relative;
+}
+
+.book__title {
+    color: #019c97;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.book__size {
+    color: #777777;
+    font-size: 3rem;
+}
+
+.book__actions {
+    bottom: 0;
+    height: 14rem;
+    position: absolute;
+    right: 0;
+    width: 12rem;
+}
