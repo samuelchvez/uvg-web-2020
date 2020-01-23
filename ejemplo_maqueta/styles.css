@@ -67,13 +67,23 @@ a:hover {
     right: 100px;
 } */
 
+/* .books {
+    background: rebeccapurple;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 4rem;
+}
+
 .book {
     border-radius: 2rem;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
-    display: block;
-    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin-bottom: 4rem;
     overflow: hidden;
-    width: 226px;
 }
 
 .book__image {
@@ -106,3 +116,52 @@ a:hover {
     right: 0;
     width: 12rem;
 }
+
+@media(min-width: 600px) {
+    .books {
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .book {
+        flex-grow: 1;
+        max-width: 250px;
+    }
+} */
+
+
+/* .mi-cuadrado {
+    background: orangered;
+    font-size: 4rem;
+    height: 100px;
+    padding: 4rem;
+    width: 100px;
+} */
+
+.button {
+    border-radius: 4rem;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    height: 8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button.button--red {
+    background: red;
+}
+
+.button.button--green {
+    background: green;
+}
+
+.button.button--rebelde {
+    border: 1rem purple dashed;
+}
+
+
